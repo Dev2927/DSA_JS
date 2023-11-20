@@ -1,8 +1,16 @@
-function factorial(item){
-    if(item==0){
-        return 1
-    }
-    return item*factorial(item-1)
+// function factorial(item){
+//     if(item==0){
+//         return 1
+//     }
+//     return item*factorial(item-1)
+// }
+// console.log(factorial(2))
+
+// Practice for Recursion
+function factorial(item) {
+  if (item == 0) {
+    return 1;
+  }
+  return item * factorial(item - 1);
 }
-let data = 6
-console.log(factorial(data))
+console.log(factorial(5));
