@@ -1,4 +1,5 @@
 let arr = [12, 11, 13, 5, 6];
+
 function insertionSort(data) {
   let i, current, j;
   for (let i = 1; i < data.length; i++) {
